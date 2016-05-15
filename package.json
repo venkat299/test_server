@@ -4,7 +4,10 @@
   "description": "\"test module for harvest api\"",
   "main": "server.js",
   "dependencies": {
-    "seneca": "^2.0.1"
+    "bluebird": "^3.3.5",
+    "seneca": "^2.0.1",
+    "seneca-entity": "0.0.1",
+    "seneca-mongo-store": "^0.2.0"
   },
   "devDependencies": {},
   "scripts": {
